@@ -52,6 +52,21 @@ const ProjectSection = () => {
                     githubLink={"https://github.com/Ankitsingh0460/Rock-Paper-Scissors-Game"}
                 />
 
+                <ProjectCard
+                    imgUrl={"/ImageSearch.png"}
+                    title={"ImageSearch"}
+                    description={"It is a Image search website where we can search any type of image. "}
+                    githubLink={"https://github.com/Ankitsingh0460/Image-Search"}
+                />
+
+                <ProjectCard
+                    imgUrl={"/Amazon.png"}
+                    title={"AmazonClone"}
+                    description={"It is a clone of Original Website. "}
+                    githubLink={"https://github.com/Ankitsingh0460/Amazon-Clone"}
+                />
+
+
 
 
 

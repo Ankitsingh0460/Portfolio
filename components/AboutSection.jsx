@@ -7,7 +7,7 @@ const Tab_Data = [
         id: "skills",
         name: "skills",
         content: (
-            <ul>
+            <ul style={{ "list-style": "disc" }}>
                 <li>C#,.Net</li>
                 <li>Html</li>
                 <li>SQL</li>
@@ -26,7 +26,7 @@ const Tab_Data = [
         id: "Education",
         name: "Education",
         content: (
-            <ul>
+            <ul style={{ "list-style": "disc" }}>
                 <li>B.Tech:(CSE with Specialization in Data Science) (2020-2024)</li>
                 <li>12th: Science, BSEB (2019)</li>
                 <li>10th: 10th Standard ,CBSE (2017)</li>
@@ -37,7 +37,7 @@ const Tab_Data = [
         title: "Certifications",
         id: "certifications",
         content: (
-            <ul className="list-disc pl-2">
+            <ul className="list-disc pl-2" style={{ "list-style": "disc" }}>
                 <li>5 Star in Java From HackerRank</li>
                 <li>SQL certifications from Infosys</li>
                 <li>C# certifications on HackerRank</li>

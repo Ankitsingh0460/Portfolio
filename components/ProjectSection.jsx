@@ -14,6 +14,13 @@ const ProjectSection = () => {
                     githubLink={"https://github.com/Ankitsingh0460/Blog-App"}
                 />
 
+                <ProjectCard
+                    imgUrl={"/Resturant.png"}
+                    title={"Resturant-App"}
+                    description={"Resturant website it is made on React,Js,Html,Css,Bootstaps,@Mui "}
+                    githubLink={"https://github.com/Ankitsingh0460/Restaurant-App"}
+                />
+
 
                 <ProjectCard
                     imgUrl={"/E-commerce.png"}
@@ -65,6 +72,7 @@ const ProjectSection = () => {
                     description={"It is a clone of Original Website. "}
                     githubLink={"https://github.com/Ankitsingh0460/Amazon-Clone"}
                 />
+
 
 
 

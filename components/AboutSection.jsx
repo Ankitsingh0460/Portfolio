@@ -27,9 +27,9 @@ const Tab_Data = [
         name: "Education",
         content: (
             <ul style={{ "list-style": "disc" }}>
-                <li>B.Tech:(CSE with Specialization in Data Science) (2020-2024)</li>
-                <li>12th: Science, BSEB (2019)</li>
-                <li>10th: 10th Standard ,CBSE (2017)</li>
+                <li>B.Tech:(CSE with Specialization in Data Science) (2024) [84.19%]</li>
+                <li>12th: Science, BSEB (2019) [64.8%]</li>
+                <li>10th: 10th Standard ,CBSE (2017) [85.5%]</li>
             </ul>
         )
     },

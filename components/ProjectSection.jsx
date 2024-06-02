@@ -9,9 +9,9 @@ const ProjectSection = () => {
 
                 <ProjectCard
                     imgUrl={"/Blog.png"}
-                    title={"Blog App"}
-                    description={"Blog web application based on (Django,JavaScript,Html,Css, SQL) stack with Authentication for state management"}
-                    githubLink={"https://github.com/Ankitsingh0460/Blog-App"}
+                    title={"BlogiFY App"}
+                    description={"Blog web application based on (JavaScript, NodeJS,ExpressJS,MongoDB,EJS) for password security HashPassword is use"}
+                    githubLink={"https://github.com/Ankitsingh0460/BlogiFy"}
                 />
 
                 <ProjectCard
@@ -28,6 +28,14 @@ const ProjectSection = () => {
                     description={"This website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location."}
                     githubLink={"https://github.com/Ankitsingh0460/E-Commerce-Website"}
                 />
+
+                <ProjectCard
+                    imgUrl={"/URL.png"}
+                    title={"URL Shortener"}
+                    description={"URL shortener app that help us to converts a long URL into a short URL .The idea is to minimize the web page address into something which user can easily remember and track.  "}
+                    githubLink={"https://github.com/Ankitsingh0460/URL-Shortener"}
+                />
+
 
                 <ProjectCard
                     imgUrl={"examportal.png"}
@@ -52,12 +60,6 @@ const ProjectSection = () => {
                     githubLink={"https://github.com/Ankitsingh0460/Smart-Home-Automation-"}
                 />
 
-                <ProjectCard
-                    imgUrl={"/Rock.png"}
-                    title={"Game"}
-                    description={"Rock, paper, scissors (RPS) is a hand game where two players simultaneously form one of three shapes with an outstretched hand.  "}
-                    githubLink={"https://github.com/Ankitsingh0460/Rock-Paper-Scissors-Game"}
-                />
 
                 <ProjectCard
                     imgUrl={"/ImageSearch.png"}

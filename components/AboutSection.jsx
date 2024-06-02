@@ -8,17 +8,27 @@ const Tab_Data = [
         name: "skills",
         content: (
             <ul style={{ "list-style": "disc" }}>
-                <li>C#,.Net</li>
-                <li>Html</li>
-                <li>SQL</li>
+                <li>C#</li>
+                <li>IOT</li>
                 <li>Java</li>
+                <li>Html,CSS</li>
                 <li>Python</li>
-                <li>React</li>
                 <li>Django</li>
+                <li>ReactJS</li>
+                <li>ExpressJS</li>
+                <li>NodeJS</li>
+                <li>TailWind</li>
+                <li>JavaScript</li>
+            </ul>
+        )
+    },
+    {
+        id: "database",
+        name: "database",
+        content: (
+            <ul style={{ "list-style": "disc" }}>
+                <li>MySQL</li>
                 <li>MongoDB</li>
-                <li>Tailwind </li>
-                <li>Node.Js</li>
-                <li>Javascript</li>
             </ul>
         )
     },
@@ -28,7 +38,7 @@ const Tab_Data = [
         content: (
             <ul style={{ "list-style": "disc" }}>
                 <li>B.Tech:(CSE with Specialization in Data Science) (2024) [84.19%]</li>
-                <li>12th: Science, BSEB (2019) [64.8%]</li>
+                <li>12th: Science, BSEB (2019)[64.8%]</li>
                 <li>10th: 10th Standard ,CBSE (2017) [85.5%]</li>
             </ul>
         )
@@ -71,7 +81,8 @@ const AboutSection = () => {
                     on a fulfilling career in the tech industry and as a developer.
                 </p>
                 <div className="flex flex-row mt-8">
-                    <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"} >Skills</TabButton>
+                    <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"} >Programming Language </TabButton>
+                    <TabButton selectTab={() => handleTabChange("database")} active={tab === "database"} >Database</TabButton>
                     <TabButton selectTab={() => handleTabChange("Education")} active={tab === "Education"} >Education</TabButton>
                     <TabButton
                         selectTab={() => handleTabChange("certifications")}

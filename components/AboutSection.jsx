@@ -9,6 +9,7 @@ const Tab_Data = [
     content: (
       <ul style={{ "list-style": "disc" }}>
         <li>C#</li>
+        <li>.Net</li>
         <li>IOT</li>
         <li>Java</li>
         <li>Html,CSS</li>
@@ -19,29 +20,8 @@ const Tab_Data = [
         <li>NodeJS</li>
         <li>TailWind</li>
         <li>JavaScript</li>
-      </ul>
-    ),
-  },
-  {
-    id: "database",
-    name: "database",
-    content: (
-      <ul style={{ "list-style": "disc" }}>
         <li>MySQL</li>
         <li>MongoDB</li>
-      </ul>
-    ),
-  },
-  {
-    id: "Education",
-    name: "Education",
-    content: (
-      <ul style={{ "list-style": "disc" }}>
-        <li>
-          B.Tech:(CSE with Specialization in Data Science) (2024) [84.19%]
-        </li>
-        <li>12th: Science, BSEB (2019)[64.8%]</li>
-        <li>10th: 10th Standard ,CBSE (2017) [85.5%]</li>
       </ul>
     ),
   },
@@ -60,6 +40,19 @@ const Tab_Data = [
         <li>
           Web development Internship in OctaNet Services Pvt Ltd.(2024-Mar-Jun)
         </li>
+      </ul>
+    ),
+  },
+  {
+    id: "Education",
+    name: "Education",
+    content: (
+      <ul style={{ "list-style": "disc" }}>
+        <li>
+          B.Tech:(CSE with Specialization in Data Science) (2024) [84.19%]
+        </li>
+        <li>12th: Science, BSEB (2019)[64.8%]</li>
+        <li>10th: 10th Standard ,CBSE (2017) [85.5%]</li>
       </ul>
     ),
   },
@@ -104,22 +97,16 @@ const AboutSection = () => {
             Programming Language{" "}
           </TabButton>
           <TabButton
-            selectTab={() => handleTabChange("database")}
-            active={tab === "database"}
+            selectTab={() => handleTabChange("experiences")}
+            active={tab === "experiences"}
           >
-            Database
+            Experiences
           </TabButton>
           <TabButton
             selectTab={() => handleTabChange("Education")}
             active={tab === "Education"}
           >
             Education
-          </TabButton>
-          <TabButton
-            selectTab={() => handleTabChange("experiences")}
-            active={tab === "experiences"}
-          >
-            Experiences
           </TabButton>
         </div>
         <div className="mt-8">{Tab_Data.find((t) => t.id === tab).content}</div>

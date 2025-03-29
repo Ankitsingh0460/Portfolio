@@ -46,16 +46,20 @@ const Tab_Data = [
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Experiences",
+    id: "experiences",
     content: (
       <ul className="list-disc pl-2" style={{ "list-style": "disc" }}>
         <li>
-          Web development Internship in OctaNet Services Pvt Ltd.(march-june)
+          Software Engineer Intern Blu Parrot Venture. (2024-2025,Dec-Present)
         </li>
-        <li>5 Star in Java From HackerRank</li>
-        <li>SQL certifications from Infosys</li>
-        <li>C# certifications on HackerRank</li>
+        <li>
+          Graduate Engineering Trainee Altruist Technology Pvt.Ltd
+          (2024-Aug-Dec)
+        </li>
+        <li>
+          Web development Internship in OctaNet Services Pvt Ltd.(2024-Mar-Jun)
+        </li>
       </ul>
     ),
   },
@@ -112,11 +116,10 @@ const AboutSection = () => {
             Education
           </TabButton>
           <TabButton
-            selectTab={() => handleTabChange("certifications")}
-            active={tab === "certifications"}
+            selectTab={() => handleTabChange("experiences")}
+            active={tab === "experiences"}
           >
-            {""}
-            Certifications{" "}
+            Experiences
           </TabButton>
         </div>
         <div className="mt-8">{Tab_Data.find((t) => t.id === tab).content}</div>

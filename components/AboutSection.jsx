@@ -82,12 +82,12 @@ const AboutSection = () => {
           About Me
         </h1>
         <p className="text-base md:text-lg text-gray-300">
-          I am an ambitious and detail-oriented upcoming graduate with a strong
-          foundation in software development, particularly skilled in the MERN
-          stack (MongoDB, Express.js,React.js, Node.js) and Next.js. Eager to
-          contribute my technical skills and fresh perspectives to innovative
-          projects, I am excited about embarking on a fulfilling career in the
-          tech industry and as a developer.
+          I am a software developer specializing in the MERN stack (MongoDB,
+          Express.js, React.js, Node.js) and .NET C#. With a strong foundation
+          in software development, I am passionate about building innovative
+          solutions and contributing my technical expertise to impactful
+          projects. Excited to grow and evolve in the tech industry, I am eager
+          to take on new challenges and opportunities..
         </p>
         <div className="flex flex-row mt-8">
           <TabButton

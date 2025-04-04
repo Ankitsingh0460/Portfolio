@@ -30,9 +30,7 @@ const Tab_Data = [
     id: "experiences",
     content: (
       <ul className="list-disc pl-2" style={{ "list-style": "disc" }}>
-        <li>
-          Software Engineer Intern Blu Parrot Venture. (2024-2025,Dec-Present)
-        </li>
+        <li>Software Engineer Blu Parrot Venture. (2024-2025,Dec-Present)</li>
         <li>
           Graduate Engineering Trainee Altruist Technology Pvt.Ltd
           (2024-Aug-Dec)
